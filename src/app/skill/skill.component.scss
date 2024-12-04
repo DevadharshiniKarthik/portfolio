@@ -1,0 +1,98 @@
+.skills-sec {
+  height: 100vh;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 99;
+}
+
+.skills-sec h4 {
+  // font-size: 40px;
+  // font-weight: 800;
+  // color: #01F7F4;
+  // margin-bottom: 25px;
+  // text-align: center;
+
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  animation: Contact_animated-gradient__fLl-V 5s ease-in-out infinite;
+  background: linear-gradient(90deg, #fff -3.52%, #01F7F4 24.19%, #fff 67.32%, #01F7F4 103.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+  background-size: 200%;
+  display: inline-flex;
+  font-size: clamp(24px, 5vw, 40px);
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skills-sec .skls-icon-sec .skll-bx {
+  padding: 15px;
+  height: 100px;
+  background-color: rgba(1, 9, 10, 0.5);
+  border: 1px solid #102224;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.skills-sec .skls-icon-sec .skll-bx span {
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.skills-sec .skls-icon-sec .skll-bx .skl-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.skills-sec .skls-icon-sec .skll-bx:hover {
+  background: linear-gradient(116.9deg, rgba(3, 14, 16, 0.5019607843) 11.45%, rgba(21, 111, 121, 0.5019607843) 59.88%, rgba(3, 14, 16, 0.5019607843) 108.31%);
+  transform: scale(1.04);
+  transition: 0.5s ease-in-out;
+}
+
+
+@keyframes Contact_animated-gradient__fLl-V {
+
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .skills-sec {
+    height: 100%;
+  }
+
+  .skls-icon-sec {
+    padding-bottom: 65px;
+  }
+
+  .prof-sec {
+    height: 100vh;
+    padding: 2rem 0;
+  }
+
+}

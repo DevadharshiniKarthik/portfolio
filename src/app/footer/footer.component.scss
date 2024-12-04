@@ -1,0 +1,41 @@
+/*-- -- -- -- -- -- -- || footer Content Start || -- -- -- -- -- -- --*/
+.foot-sec {
+  max-width: 300px;
+  min-width: 300px;
+  background-color: rgba(6, 26, 29, 0.5);
+  border: 1px solid #102224;
+  border-radius: 20px;
+  padding: 15px;
+  position: fixed;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  z-index: 99999;
+}
+
+.foot-sec .foot-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-sec .foot-cont a {
+  padding: 0 15px;
+}
+
+.foot-sec .foot-cont a svg {
+  max-width: 25px;
+  height: 25px;
+  transition: 0.5s ease-in-out all;
+}
+
+.foot-sec .foot-cont .IconAct:hover svg,
+.foot-sec .foot-cont .IconAct.active svg{
+  fill: #01F7F4;
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out all;
+  position: relative;
+}
+
+
+/*-- -- -- -- -- -- -- || footer Content End || -- -- -- -- -- -- --*/

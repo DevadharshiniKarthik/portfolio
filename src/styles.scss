@@ -1,0 +1,257 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-synthesis: weight style small-caps;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  line-height: 28px;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+svg {
+  max-width: 100%;
+}
+
+.btn-check:focus+.btn,
+.btn:focus,
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+a:focus-visible {
+  outline: none;
+}
+
+:root {
+  --font-urban: 'Urbanist', sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-1170 {
+    max-width: 1170px;
+  }
+}
+
+
+
+
+// styles 
+
+
+.dbPg {
+  background-color: #020B0C;
+  min-height: 100vh;
+  font-family: var(--font-urban);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dbPgInr {
+  min-height: 100vh;
+}
+
+/*-- -- -- -- -- -- -- || Header & Sidebar Content Start || -- -- -- -- -- -- --*/
+/*--||
+Header Start
+||--*/
+.hdlogo {
+  max-width: 50px;
+}
+
+.nav-hd-cnt svg {
+  margin-bottom: 5px;
+}
+
+.nav-hd-cnt a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF !important;
+}
+
+.nav-hd-cnt a::after {
+  content: "";
+  background: #01F7F4;
+  border-radius: 15px;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: relative;
+  transition: all 0.3s ease-out 0s;
+  width: 0;
+  z-index: -1;
+}
+
+.nav-hd-cnt a:hover:after {
+  width: 100%;
+}
+
+.dbHdrR {
+  align-items: center;
+}
+
+.dbHdr {
+  padding: 15px 0px;
+}
+
+/*--||
+Header End
+||--*/
+@media only screen and (max-width: 991px) {
+  .dbPgC-lt {
+    min-width: auto;
+  }
+
+  .dbPgC-ltCon {
+    left: 0px;
+    background-color: #041315;
+    z-index: 99;
+    padding: 10px 10px;
+    max-width: 250px;
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+
+  .sbMenu .dbPgC-ltCon {
+    transform: translateX(0%);
+  }
+
+  .dbHdrC-rt-lt {
+    display: flex;
+    align-items: center;
+  }
+
+  .hdLogo {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dbHdrPgTl {
+    display: none;
+  }
+
+  .hdLogo img {
+    max-width: 36px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .smClose {
+    margin-left: 0px;
+  }
+
+  .dbHdrAdr span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .dbHdrAdr span {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .dbHdrAdr span {
+    max-width: 60px;
+  }
+}
+
+/*-- -- -- -- -- -- -- || Header & Sidebar Content End || -- -- -- -- -- -- --*/
+
+/*-- -- -- -- -- -- -- || Overlay Content Start || -- -- -- -- -- -- --*/
+.dbPg::before,
+.dbPg::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(110.24deg, rgba(0, 71, 255, 0.29) 30.28%, rgba(96, 229, 248, 0.232) 43.59%);
+  filter: blur(200px);
+  transform: rotate(-24.63deg);
+  width: 863.3px;
+  height: 216.23px;
+}
+
+.dbPg::before {
+  top: 40px;
+  left: 0px;
+}
+
+.dbPg::after {
+  top: 40px;
+  right: -80px;
+}
+
+.dbPg .container-fluid {
+  position: relative;
+}
+
+/*-- -- -- -- -- -- -- || Overlay Content End || -- -- -- -- -- -- --*/
+
+.inner-pg-sec {
+  position: relative;
+  z-index: 9999;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(1turn);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+// Keyframes 
+
+@keyframes About_animated-gradient__VmlLF {
+
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}

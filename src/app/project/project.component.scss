@@ -1,0 +1,123 @@
+.project-sec-hdng {
+  margin-bottom: 35px;
+  // text-align: center;
+}
+
+.project-sec-hdng h4 {
+  -webkit-text-fill-color: #0000;
+  animation: Contact_animated-gradient__fLl-V 5s ease-in-out infinite;
+  background: linear-gradient(90deg, #fff -3.52%, #01F7F4 24.19%, #fff 67.32%, #01F7F4 103.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+  background-size: 200%;
+  display: inline-flex;
+  font-size: clamp(24px, 5vw, 45px);
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project-sec-hdng h6 {
+  color: #d7d7d7;
+  font-size: clamp(16px, 3vw, 18px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.Prjt_Dtls {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.PrjctSecPdng {
+  padding: 25px 0;
+  margin: 25px auto;
+}
+
+.project-sec {
+  padding: 35px 0;
+}
+
+.Prjt_Dtls h3 {
+  color: #fff;
+  font-size: clamp(24px, 5vw, 39px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 470px;
+}
+
+.HdngBox {
+  background-color: #fff3;
+  border: .5px solid #fff3;
+  border-radius: 7px;
+  color: #fff;
+  display: inline-block;
+  font-size: clamp(14px, 5vw, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 25px;
+  padding: 5px 15px;
+  max-width: fit-content;
+}
+
+
+@keyframes Contact_animated-gradient__fLl-V {
+
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  .Prjt_Dtls h3 {
+    font-size: clamp(24px, 5vw, 36px);
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .Prjt_Dtls h3 {
+    max-width: 470px;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .flx_Drctn {
+    flex-direction: column-reverse;
+  }
+
+  .HdngBox {
+    margin: auto;
+  }
+
+  .PrjctSecPdng {
+    padding: 15px 0;
+    margin: 15px auto;
+  }
+
+  .project-sec-hdng {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+}
